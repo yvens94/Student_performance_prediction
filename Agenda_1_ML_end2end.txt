@@ -1,0 +1,23 @@
+Agenda 1 08/26/2022
+
+1- Set up the GitHub repository
+	a)new environment
+	b) mini project stucture    setup.py
+	c) requirements.txt
+
+First Create a folder where we would 
+Go to github create new repositories
+open Anaconca prompt: in our case it was not working we solve it installing anaconda for windows again without desintalling 
+the previous version
+
+go to the folder and cppy the path
+in the anaconda prompt move to the path using cd and the path
+
+once in the path write the command: 'code .'  to connect to vs code
+
+
+in VScode we open a terminal can be shell or cmd and we create an environment with the command
+conda create -p (name of the environment venv in our case) the python version  can find this using the command python --version in cmd
+and -y to give the persmission
+
+conda create -p venv python==3.10.9 -y 
