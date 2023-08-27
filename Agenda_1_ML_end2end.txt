@@ -5,8 +5,12 @@ Agenda 1 08/26/2022
 	b) mini project stucture    setup.py
 	c) requirements.txt
 
+
+________________________NEW EBVIRONMENT_______________________________________
 First Create a folder where we would 
+
 Go to github create new repositories
+
 open Anaconca prompt: in our case it was not working we solve it installing anaconda for windows again without desintalling 
 the previous version
 
@@ -21,3 +25,47 @@ conda create -p (name of the environment venv in our case) the python version  c
 and -y to give the persmission
 
 conda create -p venv python==3.10.9 -y 
+
+cls to clean the terminal
+
+Conda activate environment name/    ; to activate the terminal
+
+
+
+----------------------SYNC WITH GIT-----------------------------------------------------------
+
+git init in the env to create repsitories but didn't work 
+git wasn't installed
+the path was not set correctly
+try to set it in the environement variable settings but it was more simple to reinstall and enable allow use cmd and 3rd party command line
+
+with git working in the cmd, out of vs we had to reinitialize vs to get git to work
+
+follow the git guidelines
+git init to start the library
+git commit
+git add
+git push
+etc...
+create new file in .gitignore choose python as the language
+comiit changes
+git pull to view the changes in the vs code
+
+--------------------------------------------------------------------------------------------------------------
+
+Created  2 more files
+setup.py and requirements.txt
+in the setup.py put the folliwn
+from setuptools import find_packages, setup
+
+setup(
+name ='mlproject',
+version= '0.0.1',
+author= 'Yvens'
+author_email= 'ayvenjee@gmail.com',
+packages= find_packages(),
+install_requires =['pandas', 'numpy', 'seaborn']
+
+)
+
+created the source folder and a file __init__.py
