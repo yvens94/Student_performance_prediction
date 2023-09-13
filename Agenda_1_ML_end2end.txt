@@ -1,9 +1,16 @@
 Agenda 1 08/26/2022
 
+Data ingestion
+Data Transformation
+ Model Trainer
+ Model evaluation
+ Model deployment
+ CI/CD pipelines
 1- Set up the GitHub repository
 	a)new environment
 	b) mini project stucture    setup.py
 	c) requirements.txt
+
 
 
 ________________________NEW EBVIRONMENT_______________________________________
@@ -51,7 +58,7 @@ create new file in .gitignore choose python as the language
 comiit changes
 git pull to view the changes in the vs code
 
---------------------------------------------------------------------------------------------------------------
+-----------------Source folder & Build packages---------------------------------------------------------------------------------------------
 
 Created  2 more files
 setup.py and requirements.txt
@@ -69,3 +76,9 @@ install_requires =['pandas', 'numpy', 'seaborn']
 )
 
 created the source folder and a file __init__.py
+
+created a python function to navigate through requirements.txt 
+the module typing was not installed so to get it so python -m pip install typing in cmd helped
+/
+
+-------------Create logging file--------------------------------
