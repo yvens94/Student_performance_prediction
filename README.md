@@ -1,3 +1,3 @@
-## end to end machine learning project
+## Student Performance end to end machine learning project
 
 
