@@ -1,5 +1,10 @@
 pandas
+scikit-learn
 numpy
 seaborn
 matplotlib
--e .
+catboost
+xgboost
+tensorflow
+scikeras
+#-e .
