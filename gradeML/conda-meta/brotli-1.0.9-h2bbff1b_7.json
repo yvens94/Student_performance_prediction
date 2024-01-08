@@ -1,0 +1,70 @@
+{
+  "build": "h2bbff1b_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "brotli-bin 1.0.9 h2bbff1b_7",
+    "libbrotlidec 1.0.9 h2bbff1b_7",
+    "libbrotlienc 1.0.9 h2bbff1b_7",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ayven\\anaconda3\\pkgs\\brotli-1.0.9-h2bbff1b_7",
+  "files": [
+    "Library/include/brotli/decode.h",
+    "Library/include/brotli/encode.h",
+    "Library/include/brotli/port.h",
+    "Library/include/brotli/types.h",
+    ".nonadmin"
+  ],
+  "fn": "brotli-1.0.9-h2bbff1b_7.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\ayven\\anaconda3\\pkgs\\brotli-1.0.9-h2bbff1b_7",
+    "type": 1
+  },
+  "md5": "530e60a827aca1e0cf120be815c10e0e",
+  "name": "brotli",
+  "package_tarball_full_path": "C:\\Users\\ayven\\anaconda3\\pkgs\\brotli-1.0.9-h2bbff1b_7.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/include/brotli/decode.h",
+        "path_type": "hardlink",
+        "sha256": "a9665d09f77df18f8a1f4c948610474ebd8758ff3f3a0714842af0a12d263ee6",
+        "sha256_in_prefix": "a9665d09f77df18f8a1f4c948610474ebd8758ff3f3a0714842af0a12d263ee6",
+        "size_in_bytes": 14323
+      },
+      {
+        "_path": "Library/include/brotli/encode.h",
+        "path_type": "hardlink",
+        "sha256": "dfc6f8e43b30e2e88c5cc9d1a4842aa967aa399e2ccd4eea3fb134a990216812",
+        "sha256_in_prefix": "dfc6f8e43b30e2e88c5cc9d1a4842aa967aa399e2ccd4eea3fb134a990216812",
+        "size_in_bytes": 17361
+      },
+      {
+        "_path": "Library/include/brotli/port.h",
+        "path_type": "hardlink",
+        "sha256": "2cffc986439dfac586589f538db721155229ac615dfad16300dd70aff7b718f6",
+        "sha256_in_prefix": "2cffc986439dfac586589f538db721155229ac615dfad16300dd70aff7b718f6",
+        "size_in_bytes": 10712
+      },
+      {
+        "_path": "Library/include/brotli/types.h",
+        "path_type": "hardlink",
+        "sha256": "96c9330e790aa6fe53f4cdd328d0a4b98e361b82913baa3219db73aadb11272c",
+        "sha256_in_prefix": "96c9330e790aa6fe53f4cdd328d0a4b98e361b82913baa3219db73aadb11272c",
+        "size_in_bytes": 2615
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a19665530e39bb53a1dc1067ce46392c8e85a6ab178c0a0eb93f97cd879091ec",
+  "size": 18654,
+  "subdir": "win-64",
+  "timestamp": 1659616328000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/brotli-1.0.9-h2bbff1b_7.conda",
+  "version": "1.0.9"
+}

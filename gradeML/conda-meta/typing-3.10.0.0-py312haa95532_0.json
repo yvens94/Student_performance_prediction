@@ -1,0 +1,33 @@
+{
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ayven\\anaconda3\\pkgs\\typing-3.10.0.0-py312haa95532_0",
+  "files": [
+    ".nonadmin"
+  ],
+  "fn": "typing-3.10.0.0-py312haa95532_0.conda",
+  "license": "PSF",
+  "link": {
+    "source": "C:\\Users\\ayven\\anaconda3\\pkgs\\typing-3.10.0.0-py312haa95532_0",
+    "type": 1
+  },
+  "md5": "76008722de721fb155e471dae4692de8",
+  "name": "typing",
+  "package_tarball_full_path": "C:\\Users\\ayven\\anaconda3\\pkgs\\typing-3.10.0.0-py312haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "typing",
+  "sha256": "17ae1d70c5ab7b44ca285dc7f45b901eaebfb6b35b6ccba44821b488d29cfd99",
+  "size": 8589,
+  "subdir": "win-64",
+  "timestamp": 1699568926000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/typing-3.10.0.0-py312haa95532_0.conda",
+  "version": "3.10.0.0"
+}

@@ -1,0 +1,44 @@
+{
+  "build": "default_h8e68704_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.2,<15.0a0",
+    "vs2015_runtime >=14.27.29016,<15.0a0",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\ayven\\anaconda3\\pkgs\\libclang13-14.0.6-default_h8e68704_1",
+  "files": [
+    "Library/bin/libclang-13.dll",
+    ".nonadmin"
+  ],
+  "fn": "libclang13-14.0.6-default_h8e68704_1.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "C:\\Users\\ayven\\anaconda3\\pkgs\\libclang13-14.0.6-default_h8e68704_1",
+    "type": 1
+  },
+  "md5": "3006bba69985afaf32fdfd1d9a9611ab",
+  "name": "libclang13",
+  "package_tarball_full_path": "C:\\Users\\ayven\\anaconda3\\pkgs\\libclang13-14.0.6-default_h8e68704_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libclang-13.dll",
+        "path_type": "hardlink",
+        "sha256": "9e6ce8f5cfed924116fa4a4de67f928ca55c293ba890ba97389224de9bcac38e",
+        "sha256_in_prefix": "9e6ce8f5cfed924116fa4a4de67f928ca55c293ba890ba97389224de9bcac38e",
+        "size_in_bytes": 85337600
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c089cdb3001e2eabc26bc6928d76860a2b6db33aaa0109bc644733dfe181d9c7",
+  "size": 23575187,
+  "subdir": "win-64",
+  "timestamp": 1681225463000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libclang13-14.0.6-default_h8e68704_1.conda",
+  "version": "14.0.6"
+}
