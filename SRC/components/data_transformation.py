@@ -51,7 +51,7 @@ class DataTransformation:
             cat_pipeline = Pipeline(
                 steps=[
                     ("imputer", SimpleImputer(strategy="most_frequent")),
-                    ("one_hot_encoder", OneHotEncoder()),
+                    ("one_hot_encoder", OneHotEncoder(handle_unknown='infrequent_if_exist')),
                     #("scaler", StandardScaler())
                     ]
                 
@@ -90,7 +90,7 @@ class DataTransformation:
 
             preprocessing_obj = self.get_data_transformer_object()
 
-            #numerical_columns= ["writing_score", "reading_score"]
+            numerical_columns= ["writing_score", "reading_score"]
             target_column_name = "math_score"
             
 

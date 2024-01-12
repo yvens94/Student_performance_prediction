@@ -8,4 +8,5 @@ xgboost
 tensorflow
 scikeras
 dill
+flask
 -e .
