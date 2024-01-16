@@ -9,4 +9,4 @@ tensorflow
 scikeras
 dill
 flask
--e .
+#-e .
