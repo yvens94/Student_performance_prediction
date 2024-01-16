@@ -4,8 +4,8 @@ numpy
 seaborn
 matplotlib
 #catboost
-xgboost
-tensorflow
+#xgboost
+#tensorflow
 scikeras
 dill
 flask
