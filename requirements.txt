@@ -9,4 +9,5 @@ matplotlib
 scikeras
 dill
 flask
+streamlit
 #-e .
