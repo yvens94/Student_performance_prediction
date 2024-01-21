@@ -9,14 +9,14 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
-from src.utils import save_object
+from SRC.utils import save_object
 
-from src.exception import CustomException
-from src.logger import logging
+from SRC.exception import CustomException
+from SRC.logger import logging
 
 
 from dataclasses import dataclass
-from src.utils import save_object
+from SRC.utils import save_object
 
 
 @dataclass

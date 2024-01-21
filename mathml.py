@@ -1,5 +1,5 @@
 import streamlit as st
-from src.pipeline.predict_pipeline import CustomData, PredictPipeline
+from SRC.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 
 

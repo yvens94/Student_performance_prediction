@@ -18,11 +18,11 @@ from sklearn.tree import DecisionTreeRegressor
 #from xgboost import XGBRegressor
 
 
-from src.exception import CustomException
-from src.logger import logging
+from SRC.exception import CustomException
+from SRC.logger import logging
 
-from src.utils import save_object
-from src.utils import evaluate_models
+from SRC.utils import save_object
+from SRC.utils import evaluate_models
 
 @dataclass
 class ModelTrainerConfig:
